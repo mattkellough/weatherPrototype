@@ -1,0 +1,91 @@
+html {
+  background: #272a33; }
+
+body {
+  width: 1080px;
+  height: 1920px;
+  position: relative; }
+
+.content {
+  width: 100%; }
+
+.day {
+  background: url(day.jpg) center; }
+
+.night {
+  background: url(night.jpg) center; }
+
+.nav-banner {
+  background: url(weatherBanner.jpg) center;
+  width: 100%;
+  height: 432px;
+  position: relative; }
+
+.blue-banner {
+  height: 138px;
+  width: 100%;
+  background: #1dc5ff;
+  position: relative; }
+
+.weather {
+  width: 100%;
+  height: 1350px;
+  position: relative; }
+  .weather .currentWeather {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px; }
+    .weather .currentWeather img {
+      position: relative;
+      width: 190px;
+      height: 190px;
+      padding-right: 60px; }
+    .weather .currentWeather h2 {
+      font: 258px Avenir;
+      color: #fff;
+      display: inline-block;
+      margin: 0; }
+      .weather .currentWeather h2 sup {
+        top: -1em;
+        font-size: 50%;
+        margin-left: -50px;
+        padding-right: 5px;
+        padding-left: 25px; }
+    .weather .currentWeather h3 {
+      font: 93px Avenir;
+      color: #fff;
+      text-transform: uppercase;
+      margin: -60px 0 0; }
+  .weather .weekly {
+    position: relative;
+    text-align: center; }
+    .weather .weekly p {
+      border-top: 1px dotted rgba(255, 255, 255, 0.4);
+      font: 30px Arial;
+      text-transform: uppercase;
+      color: #fff;
+      border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+      width: 800px;
+      padding: 15px 0;
+      margin: 0 auto; }
+    .weather .weekly .weeklyRow {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 810px;
+      margin-top: 50px; }
+      .weather .weekly .weeklyRow img {
+        width: 83px;
+        height: 83px; }
+      .weather .weekly .weeklyRow .weather-date {
+        border-top: none;
+        font: 40px Arial;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: none; }
+      .weather .weekly .weeklyRow .singleDay {
+        font: 34px Arial;
+        color: #fff; }
